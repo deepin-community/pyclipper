@@ -1,0 +1,4 @@
+version=4
+opts="uversionmangle=s/(\d)[_\.\-\+]?(a|b)[.]?(\d*)$/\$1~\$2\$3/" \
+https://github.com/fonttools/pyclipper/releases \
+	.*/archive/@ANY_VERSION@@ARCHIVE_EXT@

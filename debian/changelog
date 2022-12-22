@@ -1,0 +1,57 @@
+pyclipper (1.2.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.2.1
+  * debian/watch: Handle prerelease versions
+  * debian/control:
+    - Use debhelper 13
+    - Bump Standards-Version to 4.5.1
+  * debian/patches: Remove patches of setuptools-scm version restriction
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Thu, 07 Jan 2021 23:26:25 +0800
+
+pyclipper (1.1.0.post2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild for python 3.8 transition
+  * debian/control: Bump Standards-Version to 4.4.1
+  * debian/salsa-ci.yml: Add CI script for salsa.debian.org
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Mon, 18 Nov 2019 08:41:55 +0800
+
+pyclipper (1.1.0.post2-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control:
+    + Update team mailing list address to debian-fonts@lists.debian.org
+      since fonts-team@lists.debian.org does not exist.
+    + Bump debhelper compat to v12.
+    + Bump Standards-Version to 4.4.0.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 19 Sep 2019 15:52:29 -0400
+
+pyclipper (1.1.0.post2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * debian/rules:
+  * debian/control:
+    - Change Vcs fields to Salsa
+    - Bump Standards-Version to 4.2.0
+    - Use python3-all-dev
+    - Change mailing list address
+    - Change upstream URL
+  * debian/patches/Dont-require-scm_git_archive.patch:
+    - Upstreamed and removed
+  * debian/patches/remove_version_restriction_in_setuptools_scm.patch:
+    - Patch to remove version restriction of setuptools_scm
+  * debian/copyright, debian/uscan:
+    - Change upstream URL
+
+ -- Yao Wei (魏銘廷) <mwei@lxde.org>  Mon, 10 Sep 2018 00:23:48 +0800
+
+pyclipper (1.0.6-1) unstable; urgency=medium
+
+  * Initial release. Closes: #806515
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 20 Nov 2017 19:48:55 -0500
