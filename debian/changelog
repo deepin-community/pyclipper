@@ -1,3 +1,9 @@
+pyclipper (1.2.1-1deepin1) unstable; urgency=medium
+
+  * No source change upload against python 3.12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 08 Jul 2024 09:53:54 +0200
+
 pyclipper (1.2.1-1) unstable; urgency=medium
 
   * Team upload
