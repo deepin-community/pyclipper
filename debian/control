@@ -2,17 +2,18 @@ Source: pyclipper
 Section: fonts
 Priority: optional
 Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
-Uploaders: Jeremy Bicha <jbicha@debian.org>
-Build-Depends: cython3,
-               debhelper-compat (= 13),
-               dh-python,
-               python3-all-dev,
-               python3-pytest <!nocheck>,
-               python3-setuptools,
-               python3-setuptools-scm,
-               python3-sympy <!nocheck>,
-               python3-unittest2 <!nocheck>
-Standards-Version: 4.5.1
+Uploaders:
+ Jeremy Bicha <jbicha@debian.org>,
+Build-Depends:
+ cython3,
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ python3-all-dev,
+ python3-pytest <!nocheck>,
+ python3-setuptools,
+ python3-setuptools-scm,
+ python3-sympy <!nocheck>,
+Standards-Version: 4.6.2
 Homepage: https://github.com/fonttools/pyclipper
 Vcs-Git: https://salsa.debian.org/fonts-team/pyclipper.git
 Vcs-Browser: https://salsa.debian.org/fonts-team/pyclipper
@@ -20,9 +21,10 @@ Vcs-Browser: https://salsa.debian.org/fonts-team/pyclipper
 Package: python3-pyclipper
 Architecture: any
 Section: python
-Depends: ${misc:Depends},
-         ${python3:Depends},
-         ${shlibs:Depends}
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ ${shlibs:Depends},
 Description: Cython wrapper for the Clipper library
  Pyclipper is a Cython wrapper exposing public functions and classes of
  the C++ translation of Angus Johnson’s Clipper library.

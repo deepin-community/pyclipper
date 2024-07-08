@@ -1,3 +1,31 @@
+pyclipper (1.3.0.post5-3) unstable; urgency=medium
+
+  * Team upload.
+  * debian/rules: Do not disable dh_auto_clean.
+  * debian/control:
+    + Remove extraneous dependency python3-unittest2. (Closes: #1058979)
+  * debian/clean: Also clean more generated files. (Closes: #1048939)
+  * debian/: Apply "wrap-and-sort -abst".
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 18 Dec 2023 20:57:46 -0500
+
+pyclipper (1.3.0.post5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fixes compilation with cython3 3.x. (Closes: #1056835)
+  * debian/control: Bump Standards-Version to 4.6.2.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 26 Nov 2023 10:24:00 -0500
+
+pyclipper (1.3.0.post5-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.3.0.post5.
+  * debian/clean: Explicitly clean up some files.
+  * debian/copyright: Update information.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 26 Nov 2023 09:45:11 -0500
+
 pyclipper (1.2.1-1) unstable; urgency=medium
 
   * Team upload
