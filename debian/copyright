@@ -23,7 +23,7 @@ License:   Expat
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 
-Files: pyclipper/clipper.*
+Files: src/clipper.*
 Copyright: 2010-2014 Angus Johnson
 License: Boost-1.0
  Permission is hereby granted, free of charge, to any person or organization

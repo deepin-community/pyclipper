@@ -1,0 +1,5 @@
+.pybuild/
+build/
+src/pyclipper/_version.py
+src/pyclipper.egg-info/
+src/pyclipper/_pyclipper.cpp
